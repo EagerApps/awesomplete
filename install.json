@@ -26,7 +26,7 @@
           "type": "object",
           "properties": {
             "input": {
-              "title": "Input",
+              "title": "Textbox",
               "type": "string",
               "format": "selector",
               "description": "Select the textbox you would like to add an autocomplete to.",
@@ -36,7 +36,7 @@
               "title": "Suggestions",
               "type": "string",
               "format": "textarea",
-              "description": "Enter your suggestions seperated by commas.",
+              "description": "Enter your suggestions seperated by a comma.",
               "order": 2
             },
             "auto": {

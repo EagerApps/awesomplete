@@ -2,6 +2,9 @@
 
   var elements = INSTALL_OPTIONS.elements;
   for (var i=0; i < elements.length; i++){
+    if (!elements[i].suggestions)
+      continue;
+
     var origSugg = elements[i].suggestions.split(',');
     var suggestions = [];
     for (var j=0; j < origSugg.length; j++){
