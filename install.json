@@ -1,0 +1,52 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./awesomplete.js"
+      },
+      {
+        "type": "style",
+        "src": "./awesomplete.css"
+      },
+      {
+        "type": "script",
+        "src": "./install/helper.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "elements": {
+        "title": "Inputs",
+        "order": 1,
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "input": {
+              "title": "Input",
+              "type": "text",
+              "format": "selector",
+              "description": "Select the textbox you would like to add an autocomplete to.",
+              "order": 1
+            },
+            "suggestions": {
+              "title": "Suggestions",
+              "type": "text",
+              "format": "textarea",
+              "description": "Enter your suggestions seperated by commas.",
+              "order": 2
+            },
+            "auto": {
+              "title": "Select First Suggestion",
+              "description": "Should the first suggestion be automatically selected?",
+              "type": "boolean",
+              "order": 3
+            }
+          }
+        }
+      }
+    }
+  }
+}
