@@ -22,18 +22,19 @@
         "order": 1,
         "type": "array",
         "items": {
+          "title": "Awesomplete Input",
           "type": "object",
           "properties": {
             "input": {
               "title": "Input",
-              "type": "text",
+              "type": "string",
               "format": "selector",
               "description": "Select the textbox you would like to add an autocomplete to.",
               "order": 1
             },
             "suggestions": {
               "title": "Suggestions",
-              "type": "text",
+              "type": "string",
               "format": "textarea",
               "description": "Enter your suggestions seperated by commas.",
               "order": 2
