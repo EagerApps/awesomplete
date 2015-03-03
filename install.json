@@ -15,6 +15,7 @@
       }
     ]
   },
+  "allowPageRestrictions": true,
   "options": {
     "properties": {
       "elements": {
