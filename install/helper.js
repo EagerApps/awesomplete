@@ -1,7 +1,4 @@
 (function(){
-  if (!Eager.matchPage(INSTALL_PATTERNS))
-    return;
-
   var elements = INSTALL_OPTIONS.elements;
   for (var i=0; i < elements.length; i++){
     if (!elements[i].suggestions)
